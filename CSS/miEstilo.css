@@ -7,15 +7,20 @@
 
 div{
     display: flex;
-    justify-content: center;
-
 }
+
 
 .cajas{
-    flex-direction: row; */
+    flex-direction: row;
     flex-wrap: wrap;
-   
+    width: 100%;
+    justify-content: space-between;
+    align-items: space-between;
+    
+
 }
+
+
 .container{
     background-color: black;
     width: 100%;
